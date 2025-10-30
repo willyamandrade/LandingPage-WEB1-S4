@@ -173,7 +173,7 @@ td {
 }
 
 .assunto {
-    input {
+    select {
         border: solid 2px grey;
         border-radius: 5px ;
     }
@@ -188,7 +188,6 @@ td {
 
 .envio {
     input {
-        background-color: white;
         width: 100px;
         padding: 3px;
         border: 2px solid grey;
