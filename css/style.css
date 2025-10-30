@@ -4,18 +4,18 @@ body {
 }
 
 h1 {
-    color:rgb(254, 251, 239);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 50px;
 }
 
 html {
-    background-color: rgb(255, 242, 230);
+    background-color: rgb(255, 240, 220);
 }
 
 .header {
-    background-color: lightgreen;
+    background-color: #90ee90;
     padding: 30px;
 }
 
@@ -31,6 +31,8 @@ html {
         color:darkgreen;
     }
 }
+
+/*  PÁGINA PRINCIPAL  */
 
 .pag_principal {
     position: absolute;
@@ -79,6 +81,7 @@ html {
     background-color: blue;
     width: 200px;
     padding: 3px;
+    border: 3px solid darkblue;
     border-radius: 20px;
     text-align: center;
     p {
@@ -86,6 +89,8 @@ html {
     }
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*  SOBRE  */
 
 .hobby {
     margin-top: 30px;
@@ -115,9 +120,80 @@ html {
     left: 440px;  
 }
 
+/*  FORMAÇÕES  */
+
 .formacoes {
     margin-top: 70px;
     left: 30px;
     position: relative;
     width: 400px;
+}
+
+/*  DISCIPLINAS  */
+
+.tabela_hora {
+    position: relative;
+    margin-top: 70px;
+    left: 30px;
+}
+
+th {
+    padding-inline: 8px;
+    border: solid;
+    background-color: rgb(240, 180, 70);
+}
+
+td {
+    padding: 10px;
+    border: solid;
+    text-align: center;
+    background-color: rgb(250, 180, 160);
+}
+
+/*  CONTATO  */
+
+.form_contato {
+    position: relative;
+    margin-top: 70px;
+    left: 30px;
+}
+
+.nome {
+    input {
+        border: solid 2px grey;
+        border-radius: 5px;
+    }
+}
+
+.email {
+    input {
+        border: solid 2px grey;
+        border-radius: 5px;
+    }
+}
+
+.assunto {
+    input {
+        border: solid 2px grey;
+        border-radius: 5px ;
+    }
+}
+
+.mensagem {
+    textarea {
+        border: solid 2px grey;
+        border-radius: 5px;
+    }
+}
+
+.envio {
+    input {
+        background-color: white;
+        width: 100px;
+        padding: 3px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }

@@ -27,23 +27,34 @@
     </header>
 
     <body>
+        <div class="form_contato">
         <h3>Entre em contato conosco</h3>
         <form action="/logo_ali" method="post">
-            <label for="nome">Nome:</label>
+            <div class="nome">
+            <label for="nome">Nome:</label> <br>
             <input type="text" id="nome" name="nome"> <br><br>
+            </div>
 
-            <label for="email">E-mail:</label>
+            <div class="email">
+            <label for="email">E-mail:</label> <br>
             <input type="email" id="email" name="email"> <br><br>
+            </div>
 
-            <label for="assunto">Assunto:</label>
+            <div class="assunto">
+            <label for="assunto">Assunto:</label> <br>
             <input type="select" id="assunto" name="assunto"> <br><br>
+            </div>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea rows="4" id="mensagem"></textarea> <br><br>
+            <div class="mensagem">
+            <label for="mensagem">Mensagem:</label> <br>
+            <textarea rows="4" id="mensagem" placeholder="Insira sua mensagem..."></textarea> <br><br>
+            </div>
             
+            <div class="envio">
             <input type="submit" id="envio">
-
+            </div>
         </form>
+        </div>
     </body>
     <footer>
         
