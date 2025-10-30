@@ -10,6 +10,10 @@ h1 {
     font-size: 50px;
 }
 
+html {
+    background-color: rgb(255, 242, 230);
+}
+
 .header {
     background-color: lightgreen;
     padding: 30px;
@@ -52,9 +56,28 @@ h1 {
     left:564px;
 }
 
+.texto {
+    margin-top: 70px;
+    left: 30px;
+    position: relative;
+    width: 400px;
+}
+
+.foto {
+    position: absolute;
+    margin-top: 30px;
+    left: 400px;
+}
+
+.curriculo {
+    position: relative;
+    margin-top: 30px;
+    left: 30px;
+}
+
 .download {
     background-color: blue;
-    margin-inline: 300px;
+    width: 200px;
     padding: 3px;
     border-radius: 20px;
     text-align: center;
@@ -64,6 +87,37 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html {
-    background-color: rgb(254, 251, 239);
+.hobby {
+    margin-top: 30px;
+    left: 30px;
+    position: relative;
+    width: 400px;
+}
+
+.fotos_sobre {
+    margin-top: 30px;
+    left: 30px;
+    position: relative;
+    width: 400px;
+}
+    
+.primeira {
+    position:absolute;
+}
+
+.segunda {
+    position:absolute;
+    left: 220px;
+}
+
+.terceira {
+    position:absolute;
+    left: 440px;  
+}
+
+.formacoes {
+    margin-top: 70px;
+    left: 30px;
+    position: relative;
+    width: 400px;
 }
