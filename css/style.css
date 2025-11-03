@@ -10,12 +10,36 @@ h1 {
     font-size: 50px;
 }
 
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 html {
-    background-color: rgb(255, 240, 220);
+    background-color: rgb(250, 190, 130);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-    background-color: #90ee90;
+    background-color: rgb(100, 100, 195);
     padding: 30px;
 }
 
@@ -25,9 +49,9 @@ html {
     border: solid;
     padding: 3px;
     width: 125px;
-    color:darkgreen;
+    color:darkblue;
     a{
-        color:darkgreen;
+        color:darkblue;
     }
 }
 
@@ -55,6 +79,12 @@ html {
     left:564px;
 }
 
+.coisa {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(255, 150, 30);
+}
+
 /*  PÁGINA PRINCIPAL   */
 
 .texto {
@@ -66,14 +96,15 @@ html {
 
 .foto {
     position: absolute;
-    margin-top: 30px;
-    left: 400px;
+    margin-top: 70px;
+    left: 500px;
 }
 
 .curriculo {
     position: relative;
     margin-top: 30px;
     left: 30px;
+    width: 200px;
 }
 
 .download {
@@ -92,7 +123,7 @@ html {
 
 .hobby {
     margin-top: 30px;
-    top: 206px;
+    top: 225px;
     left: 500px;
     position: absolute;
     width: 400px;
@@ -102,7 +133,8 @@ html {
     margin-top: 30px;
     left: 30px;
     position: relative;
-    width: 400px;
+    width: 670px;
+    height: 300px;
 }
     
 .primeira {
@@ -116,7 +148,7 @@ html {
 
 .terceira {
     position:absolute;
-    left: 440px;  
+    left: 430px;  
 }
 
 /*  FORMAÇÕES  */
@@ -134,6 +166,7 @@ html {
     position: relative;
     margin-top: 70px;
     left: 30px;
+    width: 900px;
 }
 
 th {
@@ -155,6 +188,8 @@ td {
     position: relative;
     margin-top: 70px;
     left: 30px;
+    height: 300px;
+    width: 600px;
 }
 
 .nome {
@@ -180,7 +215,7 @@ td {
 
 .assunto {
     position: absolute;
-    top: 100px;
+    top: 150px;
     select {
         height:30px;
         width: 240px;
@@ -191,7 +226,7 @@ td {
 
 .mensagem {
     position: absolute;
-    top:100px;
+    top:150px;
     left: 300px;
     textarea {
         border: solid 2px grey;
@@ -201,7 +236,7 @@ td {
 
 .envio {
     position: absolute;
-    top:185px;
+    top:235px;
     input {
         width: 150px;
         height: 30px;
