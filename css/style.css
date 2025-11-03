@@ -133,8 +133,8 @@ label {
     margin-top: 30px;
     left: 30px;
     position: relative;
-    width: 670px;
-    height: 300px;
+    width: 830px;
+    height: 450px;
 }
     
 .primeira {
@@ -143,12 +143,12 @@ label {
 
 .segunda {
     position:absolute;
-    left: 220px;
+    left: 360px;
 }
 
 .terceira {
     position:absolute;
-    left: 430px;  
+    left: 560px;  
 }
 
 /*  FORMAÇÕES  */
