@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+html {
+    background-color: rgb(250, 190, 130);
+}
+
 h1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,8 +18,22 @@ h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-html {
-    background-color: rgb(250, 190, 130);
+.footer {
+    background-color: rgb(100, 100, 195);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    p {
+        color:white;
+        position:relative;
+        left:30px;
+    }
+    a {
+        p {
+        color:rgb(180, 180, 255);
+        }
+        position:relative;
+    }
 }
 
 p {
@@ -24,6 +42,7 @@ p {
 
 a {
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 figcaption {
@@ -179,7 +198,7 @@ td {
     padding: 10px;
     border: solid;
     text-align: center;
-    background-color: rgb(250, 180, 160);
+    background-color: rgb(230, 230, 230);
 }
 
 /*  CONTATO  */
